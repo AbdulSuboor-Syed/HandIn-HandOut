@@ -1,0 +1,106 @@
+﻿@model BookEditViewModel
+@{
+    ViewBag.Title = "Edit Book";
+    var photoPath = "~/Images/" + (Model.ExistingPhotoPath??"noimage.jpg");
+}
+
+<form enctype="multipart/form-data" asp-controller="Home" asp-action="edit" method="post" class="mt-3">
+
+    <input hidden asp-for="id" />
+    <input hidden asp-for="ExistingPhotoPath" />
+
+    <div class="form-group row">
+        <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Name" class="form-control" placeholder="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label asp-for="Author" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Author" class="form-control" placeholder="Author" />
+            <span asp-validation-for="Author" class="text-danger"></span>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label asp-for="Major" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <select asp-for="Major" class="form-control" asp-items="Html.GetEnumSelectList<Major>()">
+                <option value="">Please Select</option>
+            </select>
+            <span asp-validation-for="Major" class="text-danger"></span>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label asp-for="BuyingAmount" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="BuyingAmount" class="form-control" placeholder="BuyingAmount" />
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label asp-for="RentingAmount" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="RentingAmount" class="form-control" placeholder="RentingAmount" />
+        </div>
+    </div>
+
+
+
+    <div class="form-group row">
+        <label asp-for="NumberOfBooksAvailable" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="NumberOfBooksAvailable" class="form-control" placeholder="NumberOfBooksAvailable" />
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label asp-for="IsAvailable" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <select asp-for="IsAvailable" class="form-control" asp-items="Html.GetEnumSelectList<Available>()">
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <div class="custom-file">
+                <input asp-for="Photo" class="form-control custom-file-input" />
+                <label class="custom-file-label"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row col-sm-4 offset-4">
+        <img src="@photoPath" style="height:200px;width:auto" asp-append-version="true" />
+    </div>
+
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Update</button>            
+            <a asp-controller="home" asp-action="index" role="button" class="btn btn-danger">Cancel</a>
+        </div>
+    </div>
+
+    @section Scripts{
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                })
+
+            });
+        </script>
+    }
+</form>

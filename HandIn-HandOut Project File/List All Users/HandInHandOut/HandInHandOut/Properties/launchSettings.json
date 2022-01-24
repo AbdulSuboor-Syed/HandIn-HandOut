@@ -1,0 +1,31 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:17522",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "VaultUri": "https://handinhandoutvault.vault.azure.net/",
+        "AZURE_USERNAME": "S542047@nwmissouri.edu"
+      }
+    },
+    "HandInHandOut": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "VaultUri": "https://handinhandoutvault.vault.azure.net/",
+        "AZURE_USERNAME": "S542047@nwmissouri.edu"
+      }
+    }
+  }
+}

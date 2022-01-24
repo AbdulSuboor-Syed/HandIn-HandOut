@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-12-06T15:20:16.185459Z"
+    }
+  },
+  "parameters": {
+    "HandInHandOut.subscriptionId": {
+      "Name": "HandInHandOut.subscriptionId",
+      "Type": "subscription",
+      "Value": "cf2f1c33-d169-4552-85aa-005805770b74"
+    },
+    "HandInHandOut.resourceGroupName": {
+      "Name": "HandInHandOut.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "HandInHandOut"
+    },
+    "HandInHandOut.resourceName": {
+      "Name": "HandInHandOut.resourceName",
+      "Type": null,
+      "Value": "HandInHandOut"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "cf2f1c33-d169-4552-85aa-005805770b74"
+    },
+    "HandInHandOut.resourceGroupLocation": {
+      "Name": "HandInHandOut.resourceGroupLocation",
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "HandInHandOut"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "cf2f1c33-d169-4552-85aa-005805770b74"
+    }
+  }
+}
