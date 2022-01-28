@@ -1,5 +1,5 @@
 # HandIn-HandOut:
-This project is dedicated to help university to showcase the book's that are available and allow students to view, buy,rent or sell them.<br>
+This project is dedicated to help university to showcase the book's that are available and allow students to view information about buying price, renting price and also information on students can sell their old books.
 
 ## External Requirement:
 [Microsoft Visual Studio (2019)](https://visualstudio.microsoft.com/downloads/): Install the Community version.<br>
