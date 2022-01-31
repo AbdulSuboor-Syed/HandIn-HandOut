@@ -14,38 +14,24 @@ namespace HandInHandOut.ViewModels
             Roles = new List<string>();
         }
 
-
-
         public string Id { get; set; }
-
-
 
         [Required]
         public string UserName { get; set; }
-
-
 
         [Required]
         [EmailAddress]
         public string Email { get; set; }
 
-
-
         public string AdressLine1 { get; set; }
         public string AdressLine2 { get; set; }
         public string City { get; set; }
 
-
-
         public string State { get; set; }
 
-
-
-
+        
 
         public List<string> Claims { get; set; }
-
-
 
         public IList<string> Roles { get; set; }
     }

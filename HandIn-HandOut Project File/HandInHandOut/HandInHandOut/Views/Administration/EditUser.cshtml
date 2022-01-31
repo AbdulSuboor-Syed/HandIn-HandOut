@@ -1,24 +1,12 @@
 ﻿@model EditUserViewModel
 
-
-
 @{
     ViewBag.Title = "Edit User";
 }
 
-
-
 <h1>Edit User</h1>
 
-
-
-<form method="post" class="mt-3">
-    <div class="form-group row">
-        <label asp-for="Id" class="col-sm-2 col-form-label"></label>
-        <div class="col-sm-10">
-            <input asp-for="Id" disabled class="form-control">
-        </div>
-    </div>
+<form method="post" class="mt-3">    
     <div class="form-group row">
         <label asp-for="Email" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-10">
@@ -35,16 +23,12 @@
     </div>
 
 
-
-
     <div class="form-group row">
         <label asp-for="AdressLine1" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-10">
             <input asp-for="AdressLine1" class="form-control">
         </div>
     </div>
-
-
 
     <div class="form-group row">
         <label asp-for="AdressLine2" class="col-sm-2 col-form-label"></label>
@@ -55,16 +39,12 @@
 
 
 
-
-
     <div class="form-group row">
         <label asp-for="City" class="col-sm-2 col-form-label"></label>
         <div class="col-sm-10">
             <input asp-for="City" class="form-control">
         </div>
     </div>
-
-
 
     <div class="form-group row">
         <label asp-for="State" class="col-sm-2 col-form-label"></label>
@@ -73,16 +53,12 @@
         </div>
     </div>
 
-
-
     <div asp-validation-summary="All" class="text-danger"></div>
-
-
 
     <div class="form-group row">
         <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Update</button>
-            <a asp-action="ListUsers" class="btn btn-primary">Cancel</a>
+            <button type="submit" class="btn btn-outline-dark">Update</button>
+            <a asp-action="ListUsers" class="btn btn-outline-dark">Cancel</a>
         </div>
     </div>
     </br>
@@ -104,13 +80,11 @@
             }
         </div>
         <div class="card-footer">
-            <a href="#" style="width:auto" class="btn btn-primary">
+            <a href="#" style="width:auto" class="btn btn-outline-dark">
                 Manage Roles
             </a>
         </div>
     </div>
-
-
 
     <div class="card mt-3">
         <div class="card-header">
@@ -130,7 +104,7 @@
             }
         </div>
         <div class="card-footer">
-            <a href="#" style="width:auto" class="btn btn-primary">
+            <a href="#" style="width:auto" class="btn btn-outline-dark">
                 Manage Claims
             </a>
         </div>

@@ -14,6 +14,7 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\n
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\LoginForm.jpg
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\NewLoginForm.jpg
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\noimage.jpg
+C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\payment.pdf
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\RegisterForm.jpg
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\Signup.jpg
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\WelcomeImage02.jpg
@@ -291,14 +292,9 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\n
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.runtimeconfig.json
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.pdb
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Core.dll
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Identity.dll
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Security.KeyVault.Secrets.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -316,7 +312,6 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\n
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.dll
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll

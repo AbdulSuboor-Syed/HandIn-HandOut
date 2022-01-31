@@ -95,3 +95,5 @@ C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\bin\Release\n
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\bin\Release\netcoreapp3.1\Humanizer.dll
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\Razor\Views\Administration\EditUser.cshtml.g.cs
+C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\Razor\Views\Administration\ListUsers.cshtml.g.cs
