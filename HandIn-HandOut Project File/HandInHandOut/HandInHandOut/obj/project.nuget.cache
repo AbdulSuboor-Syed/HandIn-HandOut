@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eJVrYYymu8KAKRr7TcfDpLV4qnm9Dfsg0qwkI/cZcoErPqWrlZWdCJ2CmM2jH1epoTrpA8tdQEkh6wQ8CXR2dA==",
+  "dgSpecHash": "1Q4mXGoBjMGlXxQxE7vZCPkBTN4n+tf1Aqa+QF+Z+2kXCGWsdnrgOJVU1iKz0h8o9MLEnYVD21KvmUc2N8qvKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S542047\\Desktop\\Spring Sprints\\Manage Users\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+  "projectFilePath": "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S542047\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\S542047\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
