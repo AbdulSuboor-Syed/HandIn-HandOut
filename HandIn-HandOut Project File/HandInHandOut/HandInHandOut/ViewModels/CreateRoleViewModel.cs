@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HandInHandOut.ViewModels
 {
-    public class CreateRoleViewModel
+    public class CreateRoleNViewModel
     {
         
         [Required]
