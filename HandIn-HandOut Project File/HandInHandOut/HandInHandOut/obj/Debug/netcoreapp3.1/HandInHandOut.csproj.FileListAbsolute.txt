@@ -69,7 +69,6 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\net
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\HandInHandOut.TagHelpers.input.cache
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\HandInHandOut.TagHelpers.output.cache
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\HandInHandOut.RazorCoreGenerate.cache
-C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
@@ -99,3 +98,4 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\net
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\HandInHandOut.csproj.AssemblyReference.cache
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
+C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\AccessDenied.cshtml.g.cs

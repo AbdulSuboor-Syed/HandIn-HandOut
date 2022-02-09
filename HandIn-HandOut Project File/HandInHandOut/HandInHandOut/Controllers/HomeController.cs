@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace HandInHandOut.Controllers
 {    
-    
     public class HomeController:Controller
     {
         private readonly IBooksRepository _booksRepository;
@@ -23,14 +22,14 @@ namespace HandInHandOut.Controllers
         }
 
 
-        [Authorize(Roles ="Admin")]
+        [AllowAnonymous]
         public ViewResult Index()
         {
             var model = _booksRepository.GetAllBooks();
                 return View(model);
         }
 
-        [Authorize(Roles = "Admin")]
+        
         public ViewResult Details(int? id)
         {            
             Books bookCheck = _booksRepository.GetBooks(id.Value);
@@ -50,14 +49,15 @@ namespace HandInHandOut.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Collaborator")]
+
         public ViewResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Collaborator")]
         public IActionResult Create(BookCreateViewModel model)
         {
             if (ModelState.IsValid)
@@ -90,7 +90,7 @@ namespace HandInHandOut.Controllers
 
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Collaborator")]
         public ViewResult Edit(int id)
         {
             Books book = _booksRepository.GetBooks(id);
@@ -111,7 +111,8 @@ namespace HandInHandOut.Controllers
 
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Collaborator")]
+
         public IActionResult Edit(BookEditViewModel model)
         {
             if (ModelState.IsValid)

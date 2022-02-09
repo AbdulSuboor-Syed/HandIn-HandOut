@@ -1,12 +1,14 @@
 ﻿@model HomeDetailsViewModel
-@{    
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService authorizationService;
+@{
     Layout = "_Layout";
     ViewBag.Title = "Books Details";
-    var photoPath = "~/Images/"+(Model.books.PhotoPath?? "noimage.jpg");
+    var photoPath = "~/Images/" + (Model.books.PhotoPath ?? "noimage.jpg");
 }
 <div class="row justify-content-center m-3">
     <div class="col-sm-8">
-        <div class="card">            
+        <div class="card">
             <div class="card-body text-center">
                 <img class="card-img-top" src=@photoPath asp-append-version="true" />
                 <h1>@Model.books.Name</h1>
@@ -18,15 +20,20 @@
                 <h4>Available: @Model.books.IsAvailable</h4>
                 <h4>Number Of Books Available: @Model.books.NumberOfBooksAvailable</h4>
                 <a asp-controller="home" asp-action="index" class="btn btn-outline-dark">Back</a>
-                <a asp-controller="home" asp-action="edit" asp-route-id="@Model.books.id" class="btn btn-outline-dark">Edit</a>
-                <a href="#" class="btn btn-outline-danger">Delete</a>
+                @if ((await authorizationService.AuthorizeAsync(User, "EditRolePolicy")).Succeeded)
+                {
+                    <a asp-controller="home" asp-action="edit" asp-route-id="@Model.books.id" class="btn btn-outline-dark">Edit</a>
+                }
+                @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded) {
+                    <a href="#" class="btn btn-outline-danger">Delete</a>
+                }
             </div>
-            
-               
-            
+
+
+
         </div>
     </div>
 </div>
-@section Scripts{ 
+@section Scripts{
     <script src="~/js/CustomScript.js"></script>
 }

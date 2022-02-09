@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {}
+    "C:\\Users\\S542047\\Desktop\\Final Project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {
+    "C:\\Users\\S542047\\Desktop\\Final Project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+        "projectUniqueName": "C:\\Users\\S542047\\Desktop\\Final Project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
         "projectName": "HandInHandOut",
-        "projectPath": "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+        "projectPath": "C:\\Users\\S542047\\Desktop\\Final Project\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
         "packagesPath": "C:\\Users\\S542047\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S542047\\Desktop\\Final project\\HandInHandOut\\HandInHandOut\\obj\\",
+        "outputPath": "C:\\Users\\S542047\\Desktop\\Final Project\\HandInHandOut\\HandInHandOut\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\S542047\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -120,11 +120,6 @@ namespace HandInHandOut.Controllers
         }
 
 
-        [HttpGet]
-        [AllowAnonymous]
-        public IActionResult AccessDenied()
-        {
-            return View();
-        }
+       
     }
 }

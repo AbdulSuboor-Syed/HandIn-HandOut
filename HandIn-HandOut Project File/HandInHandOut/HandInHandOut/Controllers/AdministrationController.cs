@@ -187,6 +187,7 @@ namespace HandInHandOut.Controllers
 
 
         [HttpPost]
+        [Authorize(Policy = "DeleteRolePolicy")]
         public async Task<IActionResult> DeleteUser(string id)
         {
             var user = await userManager.FindByIdAsync(id);
@@ -216,6 +217,7 @@ namespace HandInHandOut.Controllers
 
 
         [HttpPost]
+        [Authorize(Policy = "DeleteRolePolicy")]
         public async Task<IActionResult> DeleteRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
@@ -240,7 +242,7 @@ namespace HandInHandOut.Controllers
                     }
                     return View("ListRoles");
                 }                
-                catch (DbUpdateException ex)
+                catch (DbUpdateException )
                 {                                    
                     ViewBag.ErrorTitle = $"{role.Name} role is in use";
                     ViewBag.ErrorMessage = $"{role.Name} role cannot be deleted as there are users in this role. If you want to delete this role, please remove the users from the role and then try to delete";
@@ -258,6 +260,7 @@ namespace HandInHandOut.Controllers
         }
 
         [HttpGet]
+        
         public async Task<IActionResult> EditUser(string id)
         {
             var user = await userManager.FindByIdAsync(id);
@@ -291,6 +294,7 @@ namespace HandInHandOut.Controllers
 
 
         [HttpPost]
+        
         public async Task<IActionResult> EditUser(EditUserViewModel model)
         {
             var user = await userManager.FindByIdAsync(model.Id);
@@ -329,11 +333,13 @@ namespace HandInHandOut.Controllers
 
 
         [HttpGet]
+        [Authorize(Policy = "CreateRolePolicy")]
         public IActionResult CreateRole()
         {
             return View();
         }        
         [HttpPost]
+        [Authorize(Policy = "CreateRolePolicy")]
         public async Task<IActionResult>CreateRole(CreateRoleViewModel model)
         {
             if (ModelState.IsValid)
@@ -364,6 +370,7 @@ namespace HandInHandOut.Controllers
 
        
         [HttpGet]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(string id)
         {
             var role = await roleManager.FindByIdAsync(id);
@@ -394,6 +401,7 @@ namespace HandInHandOut.Controllers
 
 
         [HttpPost]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole (EditRoleViewModel model)
         {
             var role = await roleManager.FindByIdAsync(model.Id);
@@ -502,6 +510,13 @@ namespace HandInHandOut.Controllers
 
         }
 
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
 
     }               
 }

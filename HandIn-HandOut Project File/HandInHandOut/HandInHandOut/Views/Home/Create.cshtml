@@ -1,5 +1,8 @@
 ﻿@model BookCreateViewModel
-@{ 
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService authorizationService;
+
+@{
     ViewBag.Title = "Create Book";
 }
 
@@ -80,7 +83,9 @@
 
     <div class="form-group row">
         <div class="col-sm-10">
-            <button type="submit" class="btn btn-outline-success">Create</button>
+            @if ((await authorizationService.AuthorizeAsync(User, "CreateRolePolicy")).Succeeded) {
+                <button type="submit" class="btn btn-outline-success">Create</button>
+            }
             <button type="reset" class="btn btn-outline-dark">Reset</button>
             <a asp-controller="home" asp-action="index" role="button" class="btn btn-outline-dark">Back</a>
         </div>
