@@ -22,7 +22,7 @@ namespace HandInHandOut.Controllers
         }
 
 
-        [AllowAnonymous]
+        [Authorize]
         public ViewResult Index()
         {
             var model = _booksRepository.GetAllBooks();

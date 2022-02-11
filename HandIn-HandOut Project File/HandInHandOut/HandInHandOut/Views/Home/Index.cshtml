@@ -15,10 +15,7 @@
             <img class="card-img-top " style="height:200px;width:auto" src=@photoPath asp-append-version="true" />
             <div class="card-body text-center">
                 <h5>@books.Name</h5>
-                <a asp-controller="home" asp-action="details" asp-route-id="@books.id" class="btn btn-outline-dark ">View</a>
-
-                <a href="#" class="btn btn-outline-dark">Buy</a>
-                <a href="#" class="btn btn-outline-dark">Rent</a>                
+                <a asp-controller="home" asp-action="details" asp-route-id="@books.id" class="btn btn-outline-dark ">View</a>             
 
                 @if ((await authorizationService.AuthorizeAsync(User, "EditRolePolicy")).Succeeded)
                 {
