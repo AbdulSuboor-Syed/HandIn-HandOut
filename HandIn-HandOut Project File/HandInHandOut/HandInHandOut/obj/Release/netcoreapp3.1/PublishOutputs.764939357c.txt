@@ -14,6 +14,7 @@ C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\n
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\LoginForm.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\NewLoginForm.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\noimage.jpg
+C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\payment.pdf
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\RegisterForm.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\Signup.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\WelcomeImage02.jpg

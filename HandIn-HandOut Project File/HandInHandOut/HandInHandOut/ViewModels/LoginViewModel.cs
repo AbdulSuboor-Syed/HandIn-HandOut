@@ -8,8 +8,7 @@ namespace HandInHandOut.ViewModels
 {
     public class LoginViewModel
     {
-        [Required]
-        [EmailAddress]
+        [Required]        
         public string Email { get; set; }
 
         [Required]

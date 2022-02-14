@@ -19,8 +19,7 @@ namespace HandInHandOut.ViewModels
         [Required]
         public string UserName { get; set; }
 
-        [Required]
-        [EmailAddress]
+        [Required]        
         public string Email { get; set; }
 
         public string AdressLine1 { get; set; }
