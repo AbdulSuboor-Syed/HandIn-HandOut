@@ -93,6 +93,11 @@ namespace HandInHandOut.Controllers
             return View();
         }
 
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+
 
         [HttpGet]
         [Authorize(Roles = "Admin,Collaborator")]
