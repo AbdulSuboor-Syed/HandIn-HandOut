@@ -88,6 +88,11 @@ namespace HandInHandOut.Controllers
         }
      
 
+        public ViewResult SellBooks()
+        {
+            return View();
+        }
+
 
         [HttpGet]
         [Authorize(Roles = "Admin,Collaborator")]

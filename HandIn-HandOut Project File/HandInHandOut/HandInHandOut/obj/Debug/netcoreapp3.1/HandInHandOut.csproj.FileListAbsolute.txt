@@ -99,3 +99,4 @@ C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\net
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\HandInHandOut.csproj.AssemblyReference.cache
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
 C:\Users\S542047\Desktop\Final project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Administration\AccessDenied.cshtml.g.cs
+C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Debug\netcoreapp3.1\Razor\Views\Home\SellBooks.cshtml.g.cs
