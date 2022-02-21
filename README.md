@@ -1,4 +1,7 @@
 # HandIn-HandOut:
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd25bb6d720544b888b1179d3d224911)](https://app.codacy.com/gh/AbdulSuboor-Syed/HandIn-HandOut?utm_source=github.com&utm_medium=referral&utm_content=AbdulSuboor-Syed/HandIn-HandOut&utm_campaign=Badge_Grade_Settings)
+
 This project is dedicated to help university to showcase the book's that are available and allow students to view information about buying price, renting price and also information on how students can sell their old books.
 
 
