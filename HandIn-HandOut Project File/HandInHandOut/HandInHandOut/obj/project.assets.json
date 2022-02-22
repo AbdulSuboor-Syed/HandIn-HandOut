@@ -5954,19 +5954,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\S542047\\.nuget\\packages\\": {}
+    "C:\\Users\\S542391\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S542047\\Desktop\\HandIn-HandOutRepo\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+      "projectUniqueName": "C:\\Users\\S542391\\Documents\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
       "projectName": "HandInHandOut",
-      "projectPath": "C:\\Users\\S542047\\Desktop\\HandIn-HandOutRepo\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
-      "packagesPath": "C:\\Users\\S542047\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S542047\\Desktop\\HandIn-HandOutRepo\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\obj\\",
+      "projectPath": "C:\\Users\\S542391\\Documents\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+      "packagesPath": "C:\\Users\\S542391\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\S542391\\Documents\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\S542047\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\S542391\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
