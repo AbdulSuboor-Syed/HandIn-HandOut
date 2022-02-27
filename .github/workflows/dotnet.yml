@@ -18,6 +18,7 @@ jobs:
       with:
         dotnet-version: 3.0.x        
     - name: Build
+      working-directory: ./HandIn-HandOut Project File./HandInHandOut./HandInHandOut
       run: dotnet build --configuration Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
