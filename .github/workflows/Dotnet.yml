@@ -1,0 +1,23 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.0.100
+    - name: Build with dotnet
+      run: dotnet build ./HandInHandOut.sln --configuration Release
+    - name: Test with dotnet
+      run: dotnet test ./HandInHandOut.sln --configuration Release
