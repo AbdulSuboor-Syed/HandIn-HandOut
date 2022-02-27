@@ -16,9 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.0.x
-    - name: Restore dependencies
-      run: dotnet restore
+        dotnet-version: 3.0.x  
     - name: Build
       run: dotnet build HandInHandOut.sln
     - name: Test
