@@ -16,9 +16,9 @@
                         <div class="row">
                             <div class="col-md-9 col-lg-8 mx-auto">
                                 <h3 class="login-heading mb-auto">Welcome User!</h3>
-                                <p>Register or Login to see our exciting catalog </p>                                
+                                <p>Register or Login to see our exciting catalog </p>
                                 <!-- Sign In Form -->
-                                <form method="post">                                    
+                                <form method="post">
                                     <div class="form-group">
                                         <label asp-for="Email"></label>
                                         <input asp-for="Email" class="form-control" />
@@ -41,6 +41,30 @@
                                     </div>
                                     <button type="submit" class="btn btn-outline-dark">Login</button>
                                 </form>
+
+                                <h1>External Login</h1>
+                                <hr />
+                                @{
+                                    if (Model.ExternalLogins.Count == 0)
+                                    {
+                                        <div>No external logins configured</div>
+                                    }
+                                    else
+                                    {
+                                        <form method="post" asp-action="ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl">
+                                            <div>
+                                                @foreach (var provider in Model.ExternalLogins)
+                                                {
+                                                    <button type="submit" class="btn btn-outline-dark"
+                                                            name="provider" value="@provider.Name"
+                                                            title="Log in using your @provider.DisplayName account">
+                                                        @provider.DisplayName
+                                                    </button>
+                                                }
+                                            </div>
+                                        </form>
+                                    }
+                                }
                             </div>
                         </div>
                     </div>

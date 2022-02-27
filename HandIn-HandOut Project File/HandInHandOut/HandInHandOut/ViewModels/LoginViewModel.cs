@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authentication;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,5 +18,11 @@ namespace HandInHandOut.ViewModels
 
         [Display(Name = "Remember me")]
         public Boolean RemeberMe { get; set; }
+
+        public string ReturnUrl { get; set; }
+
+        // AuthenticationScheme is in Microsoft.AspNetCore.Authentication namespace
+        public IList<AuthenticationScheme> ExternalLogins { get; set; }
+
     }
 }

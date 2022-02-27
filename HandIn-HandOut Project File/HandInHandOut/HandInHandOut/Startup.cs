@@ -35,6 +35,13 @@ namespace HandInHandOut
             
             services.AddMvc(options => options.EnableEndpointRouting = false);
 
+            services.AddAuthentication().AddGitHub(options =>
+            {
+                options.ClientId = "GitHub:ClientSecret";// Enter your client ID
+                options.ClientSecret = "GitHub:ClientSecret";// Enter your client Secret here
+                options.Scope.Add("user:email");
+            });
+
             services.ConfigureApplicationCookie(options =>
             {
                 options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
