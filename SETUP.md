@@ -1,6 +1,7 @@
 ## Setup:
 
 ### Please follow these steps after cloning the repository
+
 Step 1: Open the dile HandInHandOut.sln in Visual studio 2019 <br>
 Step 2: Click on Tools > Options > NuGet Package Manager > Package Sources <br>
 Click on + symbol <br>

@@ -1,4 +1,5 @@
 ## Creating Custom user Admin
+
 Step 1: Open the project in Microsoft Visual Studio 2019.<br>
 Step 2: Open the Solution Explorer.<br>
 Step 3: Click on Controller> AdministrationController. Remove the line [Authorize(Roles ="Admin")]<br>
