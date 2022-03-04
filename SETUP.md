@@ -10,7 +10,6 @@ Click update and click on Ok <br>
 Step 3: Click on View > Other Windows > Package Manager Console <br>
 Here type the command Update-Database <br>
 
-
 ## Build/Run:
 
 Click on the ![image](https://user-images.githubusercontent.com/77645775/156847601-78543837-a61e-4731-9d8d-2e98e5b10ff1.png) to build and run the application
