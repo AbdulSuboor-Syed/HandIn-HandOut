@@ -37,6 +37,7 @@ Follow these steps to setup github authorization on the application [GitHub Auth
 [Link to Issues](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)<br>
 [Link to Milestones](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)<br>
 [Link to Project Board](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)<br>
+[Link to Group Organization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Group-Organization)<br>
 [Link to Project Description](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki)<br>
 [Link to Abdul Suboor,Syed Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Abdul-Suboor,-Syed)<br>
 [Link to Chandra Banu Tata Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)<br>
