@@ -27,12 +27,13 @@ Follow these steps to setup an admin account using custom username [Custom usern
 
 Follow these steps to setup github authorization on the application [GitHub Authorization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Authorization-Configuration-GitHub.md)
 
-
 ## HandIn-HandOut Documents:
+
 [Link to Repository](https://github.com/HimajaParachuri/Handin-Handout-doc)<br>
 [Link to Documents Page](https://himajaparachuri.github.io/Handin-Handout-doc/)<br>
 
 ## Links to Project Documents:
+
 [Link to Issues](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)<br>
 [Link to Milestones](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)<br>
 [Link to Project Board](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)<br>
@@ -41,6 +42,3 @@ Follow these steps to setup github authorization on the application [GitHub Auth
 [Link to Chandra Banu Tata Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)<br>
 [Link to Hema Sree Machha Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Hema-Sree-Rathnam-Machha-Wiki)<br>
 [Link to Himaja Parachuri Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Himaja-Parachuri-Wiki)<br>
-
-
-
