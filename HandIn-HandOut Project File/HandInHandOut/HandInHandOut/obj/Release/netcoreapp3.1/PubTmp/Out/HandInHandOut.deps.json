@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "HandInHandOut/1.0.0": {
         "dependencies": {
+          "AspNet.Security.OAuth.GitHub": "3.1.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
@@ -306,6 +307,17 @@
         },
         "compile": {
           "HandInHandOut.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.GitHub/3.1.7": {
+        "runtime": {
+          "lib/netcoreapp3.1/AspNet.Security.OAuth.GitHub.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.721.10176"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AspNet.Security.OAuth.GitHub.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {},
@@ -3055,6 +3067,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNet.Security.OAuth.GitHub/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cll16FcKWcuKDwkX1VmX4bR7LwDWXZ1RhauscdJd64Cm7GvsPLHDVsUMBrcze4m7eCuXsQbf1G+Jk0ZD2wrj7Q==",
+      "path": "aspnet.security.oauth.github/3.1.7",
+      "hashPath": "aspnet.security.oauth.github.3.1.7.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

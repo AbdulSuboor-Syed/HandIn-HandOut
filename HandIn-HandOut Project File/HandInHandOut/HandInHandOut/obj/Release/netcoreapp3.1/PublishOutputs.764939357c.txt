@@ -1,6 +1,7 @@
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.exe
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\foo.html
+C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\12b932d5-e859-486a-98ee-b60e73d4cf6d_d5e1bf9c7156e464f5e656b93cd5c632.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\152cb927-38cb-49da-aaa9-10ed7d169647_codingforDummies.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\1ed1a94b-591b-406e-aa88-a767a32d0991_codingforDummies.jpg
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\Images\1f143e88-dee3-48bb-aad0-f20c08f8e345_cookingfordummies.jpg
@@ -292,6 +293,7 @@ C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\n
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.dll
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.runtimeconfig.json
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\HandInHandOut.pdb
+C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\AspNet.Security.OAuth.GitHub.dll
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\S542047\Desktop\Final Project\HandInHandOut\HandInHandOut\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

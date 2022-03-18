@@ -25,7 +25,27 @@
                     <a asp-controller="home" asp-action="edit" asp-route-id="@Model.books.id" class="btn btn-outline-dark">Edit</a>
                 }
                 @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded) {
-                    <a href="#" class="btn btn-outline-danger">Delete</a>
+            <form asp-controller="home" asp-action="delete" asp-route-id="@Model.books.id">
+
+                <span id="confirmDeleteSpan_@Model.books.id" style="display:none">
+                    <span>Are you sure you want to delete?</span>
+
+
+
+
+                    <button type="submit" class="btn btn-outline-danger">Yes</button>
+                    <a href="#" class="btn btn-outline-dark"
+                       onclick="confirmDelete('@Model.books.id', false)">No</a>
+                </span>
+
+                <span id="deleteSpan_@Model.books.id">
+                    @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
+                    {
+                        <a href="#" class="btn btn-outline-danger"
+                           onclick="confirmDelete('@Model.books.id', true)">Delete</a>
+                    }
+                </span>
+            </form>
                 }
             </div>
 

@@ -145,6 +145,18 @@ namespace HandInHandOut.Controllers
             return View();
         }
 
+
+        [HttpPost]
+        [Authorize(Roles = "Admin,Collaborator")]
+        public IActionResult delete(int id)
+        {
+            Books book = _booksRepository.Delete(id);
+            return RedirectToAction("index");
+        }
+
+
+
+
         private string ProcessUploadFile(BookCreateViewModel model)
         {
             string uniqueFileName = null;

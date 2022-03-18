@@ -23,6 +23,5 @@ namespace HandInHandOut.ViewModels
 
         // AuthenticationScheme is in Microsoft.AspNetCore.Authentication namespace
         public IList<AuthenticationScheme> ExternalLogins { get; set; }
-
     }
 }

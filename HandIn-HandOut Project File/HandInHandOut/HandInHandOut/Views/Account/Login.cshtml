@@ -40,9 +40,9 @@
                                         </div>
                                     </div>
                                     <button type="submit" class="btn btn-outline-dark">Login</button>
+                                    <a asp-controller="account" asp-action="Register" role="button" class="btn btn-outline-dark" style="width:auto">SignUp</a>                                    
                                 </form>
-
-                                <h1>External Login</h1>
+                                <h1>External Login/Registration using Social </h1>
                                 <hr />
                                 @{
                                     if (Model.ExternalLogins.Count == 0)

@@ -16,7 +16,7 @@
             <div class="card-body text-center">
                 <h5>@books.Name</h5>
                 <a asp-controller="home" asp-action="details" asp-route-id="@books.id" class="btn btn-outline-dark ">View</a>
-                             
+
 
                 @if ((await authorizationService.AuthorizeAsync(User, "EditRolePolicy")).Succeeded)
                 {
@@ -24,9 +24,41 @@
                 }
                 @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
                 {
-                    <a href="#" class="btn btn-outline-danger ">Delete</a>
+
+            <form asp-controller="home" asp-action="delete" asp-route-id="@books.id">                
+
+                <span id="confirmDeleteSpan_@books.id" style="display:none">
+                    <span>Are you sure you want to delete?</span>
+
+
+
+
+                    <button type="submit" class="btn btn-outline-danger">Yes</button>
+                    <a href="#" class="btn btn-outline-dark"
+                       onclick="confirmDelete('@books.id', false)">No</a>
+                </span>
+
+                <span id="deleteSpan_@books.id">
+                    @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
+                    {
+                        <a href="#" class="btn btn-outline-danger"
+                           onclick="confirmDelete('@books.id', true)">Delete</a>
+                    }
+                </span>
+            </form>
+
+
+
+
                 }
             </div>
         </div>
     }
 </div>
+
+
+
+
+@section Scripts {
+    <script src="~/js/CustomScript.js"></script>
+}
