@@ -31,6 +31,7 @@ Follow these steps to setup github authorization on the application [GitHub Auth
 
 [Link to Repository](https://github.com/HimajaParachuri/Handin-Handout-doc)<br>
 [Link to Documents Page](https://himajaparachuri.github.io/Handin-Handout-doc/)<br>
+[Future Works](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md)
 
 ## Links to Project Documents:
 
