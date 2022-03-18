@@ -6,10 +6,7 @@
 
 
     <div class="container-fluid ps-md-0">
-        <div class="row g-0">
-            <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
-                <img src="~/Images/LoginForm.jpg" style="height:500px;width:634px"/>
-            </div>
+        <div class="row g-0">            
             <div class="col-md-8 col-lg-6">
                 <div class="login d-flex align-items-center py-5"> 
                     <div class="container">
@@ -42,7 +39,8 @@
                                     <button type="submit" class="btn btn-outline-dark">Login</button>
                                     <a asp-controller="account" asp-action="Register" role="button" class="btn btn-outline-dark" style="width:auto">SignUp</a>                                    
                                 </form>
-                                <h1>External Login/Registration using Social </h1>
+                                <br>
+                                <h3>External Login/Registration using Social </h3>
                                 <hr />
                                 @{
                                     if (Model.ExternalLogins.Count == 0)
