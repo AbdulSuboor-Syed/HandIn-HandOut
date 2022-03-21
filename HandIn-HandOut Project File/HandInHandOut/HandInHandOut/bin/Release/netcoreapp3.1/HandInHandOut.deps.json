@@ -35,6 +35,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
+          "docfx.console": "2.59.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -320,6 +321,7 @@
           "lib/netcoreapp3.1/AspNet.Security.OAuth.GitHub.dll": {}
         }
       },
+      "docfx.console/2.59.0": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -3087,6 +3089,13 @@
       "sha512": "sha512-Cll16FcKWcuKDwkX1VmX4bR7LwDWXZ1RhauscdJd64Cm7GvsPLHDVsUMBrcze4m7eCuXsQbf1G+Jk0ZD2wrj7Q==",
       "path": "aspnet.security.oauth.github/3.1.7",
       "hashPath": "aspnet.security.oauth.github.3.1.7.nupkg.sha512"
+    },
+    "docfx.console/2.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OmHpFa3TGrvWC5371OV5PJxhoOsJH6xSrTCb/rght10XMIdtNRR4VDuHVkBIS1YfpgDx/5gBYCtkmVDWjjj0ig==",
+      "path": "docfx.console/2.59.0",
+      "hashPath": "docfx.console.2.59.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

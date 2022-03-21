@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RpF2G4nYDPrKKQnX2orJ1EuGP+NHloy3WEBBBo5FyLZlobDc26S9Bac7E7maHn11dM1pf2GzarfSgmTEQwWlVQ==",
+  "dgSpecHash": "xkMxCP1eIMWS26sqCR4UrDE8lGLs/YWUy5fqw94AjNNWSoH7BvsBU8sMAaUacKe6wpytHcsKXXq/zI/oWHEKVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S542047\\Desktop\\HandIn-HandOutRepo\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+  "projectFilePath": "C:\\Users\\S542047\\Desktop\\Docfx\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S542047\\.nuget\\packages\\aspnet.security.oauth.github\\3.1.7\\aspnet.security.oauth.github.3.1.7.nupkg.sha512",
+    "C:\\Users\\S542047\\.nuget\\packages\\docfx.console\\2.59.0\\docfx.console.2.59.0.nupkg.sha512",
     "C:\\Users\\S542047\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\S542047\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "C:\\Users\\S542047\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.11\\microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",

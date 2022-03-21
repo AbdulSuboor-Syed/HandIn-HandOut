@@ -23,6 +23,10 @@ namespace HandInHandOut.Controllers
             this.signInManager = signInManager;
         }
 
+        /// <summary>
+        /// This method is used to log out 
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
@@ -30,13 +34,23 @@ namespace HandInHandOut.Controllers
             return RedirectToAction("Welcome", "home");
         }
 
+        /// <summary>
+        /// This method is used to redirect the user to register
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
+        
 
+        /// <summary>
+        /// This method is used to check if the email is in use
+        /// </summary>
+        /// <param name="email"></param>
+        /// <returns></returns>
         [HttpGet]
         [HttpPost]
         [AllowAnonymous]
@@ -52,6 +66,12 @@ namespace HandInHandOut.Controllers
                 return Json($"Email {email} is already in use");
             }
         }
+
+        /// <summary>
+        /// This method is used to register a user
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Register(RegisterViewModel model)
@@ -87,7 +107,11 @@ namespace HandInHandOut.Controllers
         }
 
 
-
+        /// <summary>
+        /// This method is used to login a user 
+        /// </summary>
+        /// <param name="returnUrl"></param>
+        /// <returns></returns>
         [HttpGet]
         [AllowAnonymous]
         public async Task<IActionResult> Login(string returnUrl)
@@ -102,7 +126,12 @@ namespace HandInHandOut.Controllers
             return View(model);
         }
 
-
+        /// <summary>
+        /// This method is used to redirect a user after they have successfully logged in
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="returnUrl"></param>
+        /// <returns></returns>
         [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
@@ -129,7 +158,12 @@ namespace HandInHandOut.Controllers
             return View(model);
         }
 
-
+        /// <summary>
+        /// This method is used to authenticate a user using a third part authorization
+        /// </summary>
+        /// <param name="provider"></param>
+        /// <param name="returnUrl"></param>
+        /// <returns></returns>
         [AllowAnonymous]
         [HttpPost]
         public IActionResult ExternalLogin(string provider, string returnUrl)
@@ -141,6 +175,12 @@ namespace HandInHandOut.Controllers
             return new ChallengeResult(provider, properties);
         }
 
+        /// <summary>
+        /// This method is used as a call back from a third party authentication
+        /// </summary>
+        /// <param name="returnUrl"></param>
+        /// <param name="remoteError"></param>
+        /// <returns></returns>
         [AllowAnonymous]
         public async Task<IActionResult>
             ExternalLoginCallback(string returnUrl = null, string remoteError = null)

@@ -27,7 +27,11 @@ namespace HandInHandOut.Controllers
 
 
 
-
+        /// <summary>
+        /// This method is used to get information on user claims
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> ManageUserClaims(string userId)
         {
@@ -69,6 +73,11 @@ namespace HandInHandOut.Controllers
 
         }
 
+        /// <summary>
+        /// This method is used to set user claims
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> ManageUserClaims(UserClaimsViewModel model)
         {
@@ -111,7 +120,11 @@ namespace HandInHandOut.Controllers
 
 
 
-
+        /// <summary>
+        /// This method is used to get information about a role
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> ManageUserRoles(string userId)
         {
@@ -151,6 +164,12 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This method is used to change the role
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="userId"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> ManageUserRoles(List<UserRolesViewModel> model, string userId)
         {
@@ -185,7 +204,11 @@ namespace HandInHandOut.Controllers
 
 
 
-
+        /// <summary>
+        /// This method is used to delete a user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Policy = "DeleteRolePolicy")]
         public async Task<IActionResult> DeleteUser(string id)
@@ -216,6 +239,11 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This method is used to delete a user from the database
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Policy = "DeleteRolePolicy")]
         public async Task<IActionResult> DeleteRole(string id)
@@ -251,7 +279,10 @@ namespace HandInHandOut.Controllers
             }
         }
     
-
+        /// <summary>
+        /// This method is used to list all users
+        /// </summary>
+        /// <returns></returns>
     [HttpGet]
         public IActionResult ListUsers()
         {
@@ -259,6 +290,11 @@ namespace HandInHandOut.Controllers
             return View(users);
         }
 
+        /// <summary>
+        /// This method is used to edit each user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         
         public async Task<IActionResult> EditUser(string id)
@@ -293,6 +329,11 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This method is used to edit user information
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         
         public async Task<IActionResult> EditUser(EditUserViewModel model)
@@ -331,13 +372,22 @@ namespace HandInHandOut.Controllers
         }
 
 
-
+        /// <summary>
+        /// This method is used to get all users
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Authorize(Policy = "CreateRolePolicy")]
         public IActionResult CreateRole()
         {
             return View();
         }        
+
+        /// <summary>
+        /// This method is used to create a new role
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Policy = "CreateRolePolicy")]
         public async Task<IActionResult>CreateRole(CreateRoleViewModel model)
@@ -360,6 +410,12 @@ namespace HandInHandOut.Controllers
             }                        
             return View(model);
         }
+
+
+        /// <summary>
+        /// This method is used to List all the roles
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult ListRoles()
         {
@@ -368,7 +424,11 @@ namespace HandInHandOut.Controllers
             return View(roles);
         }
 
-       
+       /// <summary>
+       /// This method is used to Edit each role
+       /// </summary>
+       /// <param name="id"></param>
+       /// <returns></returns>
         [HttpGet]
         [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(string id)
@@ -399,7 +459,11 @@ namespace HandInHandOut.Controllers
 
         }
 
-
+        /// <summary>
+        /// This method is used to make alterations in the database
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole (EditRoleViewModel model)
@@ -431,6 +495,11 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This method is used to edit users in role
+        /// </summary>
+        /// <param name="roleId"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> EditUsersInRole(string roleId)
         {
@@ -467,7 +536,12 @@ namespace HandInHandOut.Controllers
             return View(model);
         }
 
-
+        /// <summary>
+        /// This method is used to alter database about user in role
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="roleId"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> EditUsersInRole(List<UserRoleViewModel> model, string roleId)
         {
@@ -510,7 +584,10 @@ namespace HandInHandOut.Controllers
 
         }
 
-
+        /// <summary>
+        /// This method is used to deny access to users without authorization
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [AllowAnonymous]
         public IActionResult AccessDenied()

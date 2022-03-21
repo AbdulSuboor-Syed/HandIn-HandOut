@@ -22,6 +22,10 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This method redirect users to the catalog where all the books are displayed taking data from database
+        /// </summary>
+        /// <returns>View(model)</returns>
         [Authorize]
         public ViewResult Index()
         {
@@ -29,7 +33,11 @@ namespace HandInHandOut.Controllers
                 return View(model);
         }
 
-        
+        /// <summary>
+        /// This method is used to redirect user to the information about the selected book
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>View(homeDetailsViewModel)</returns>
         public ViewResult Details(int? id)
         {            
             Books bookCheck = _booksRepository.GetBooks(id.Value);
@@ -48,6 +56,10 @@ namespace HandInHandOut.Controllers
             return  View(homeDetailsViewModel);
         }
 
+        /// <summary>
+        /// This method redirects users to Create Book Page
+        /// </summary>
+        /// <returns>View()->Home/Create</returns>
         [HttpGet]
         [Authorize(Roles = "Admin,Collaborator")]
 
@@ -55,7 +67,11 @@ namespace HandInHandOut.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        /// This method takes information about new books and updates the database
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Collaborator")]
         public IActionResult Create(BookCreateViewModel model)
@@ -81,24 +97,39 @@ namespace HandInHandOut.Controllers
         }
 
    
+        /// <summary>
+        /// This method is used to redirect user to the home page
+        /// </summary>
+        /// <returns>View(Home\Welcome)</returns>
         [AllowAnonymous]
         public ViewResult Welcome()
         {
             return View();
         }
      
-
+        /// <summary>
+        /// This method is used to redirect the user to Sell Books page
+        /// </summary>
+        /// <returns></returns>
         public ViewResult SellBooks()
         {
             return View();
         }
 
+        /// <summary>
+        /// This method is used to redirect the user to About us page
+        /// </summary>
+        /// <returns></returns>
         public ViewResult AboutUs()
         {
             return View();
         }
 
-
+        /// <summary>
+        /// This method is used to redirect the user to Edit a book information
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         [Authorize(Roles = "Admin,Collaborator")]
         public ViewResult Edit(int id)
@@ -119,7 +150,11 @@ namespace HandInHandOut.Controllers
             return View(booksEditViewModel);
         }
 
-
+        /// <summary>
+        /// This method is used to update database after the data is altered for a book
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Collaborator")]
 
@@ -146,6 +181,11 @@ namespace HandInHandOut.Controllers
         }
 
 
+        /// <summary>
+        /// This methos is used to delete a book from the repository
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPost]
         [Authorize(Roles = "Admin,Collaborator")]
         public IActionResult delete(int id)
@@ -156,7 +196,11 @@ namespace HandInHandOut.Controllers
 
 
 
-
+        /// <summary>
+        /// This method is used to add photos with unique path
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         private string ProcessUploadFile(BookCreateViewModel model)
         {
             string uniqueFileName = null;
