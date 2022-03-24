@@ -13,6 +13,7 @@
         var photoPath = "~/Images/" + (books.PhotoPath ?? "noimage.jpg");
         <div class="card m-3" style="min-width:18rem;max-width:30.5%;">
             <img class="card-img-top " style="height:200px;width:auto" src=@photoPath asp-append-version="true" />
+            <br>
             <div class="card-body text-center">
                 <h5>@books.Name</h5>
                 <a asp-controller="home" asp-action="details" asp-route-id="@books.id" class="btn btn-outline-dark ">View</a>
@@ -53,6 +54,7 @@
                 }
             </div>
         </div>
+    <br>
     }
 </div>
 
