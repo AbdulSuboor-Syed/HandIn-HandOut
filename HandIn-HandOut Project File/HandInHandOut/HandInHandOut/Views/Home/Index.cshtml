@@ -23,6 +23,7 @@
                 {
                     <a asp-controller="home" asp-action="edit" asp-route-id="@books.id" class="btn btn-outline-dark ">Edit</a>
                 }
+                <br>
                 @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
                 {
 
