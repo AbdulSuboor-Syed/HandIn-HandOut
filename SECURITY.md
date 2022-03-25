@@ -16,6 +16,4 @@ currently being supported with security updates.
 
 Use this section to tell people how to report a vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Tell people where to go, how often they may anticipate an update on a reported vulnerability, and what to expect whether the vulnerability is accepted or rejected, among other things.
