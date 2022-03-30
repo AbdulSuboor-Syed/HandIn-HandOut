@@ -1,3 +1,7 @@
-# Add your introductions here!
+# Introduction
 
-The HandIn-HandOut initiative aims to assist universities in showcasing accessible books and allowing students to browse information on purchasing, renting, and selling old books.
+The HandIn-HandOut is a project was constructed using:<br>
+1.ASP.NET Core 3.0<br>
+2.Entity Framework and Azure Cloud Database<br>
+3.Bootstrap, HTML and CSS<br>
+
