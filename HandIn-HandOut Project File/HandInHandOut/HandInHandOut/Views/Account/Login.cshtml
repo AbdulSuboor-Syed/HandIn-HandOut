@@ -13,7 +13,9 @@
                         <div class="row">
                             <div class="col-md-9 col-lg-8 mx-auto">
                                 <h2 class="login-heading mb-auto"><b>Welcome User!</b></h2>
+                                </br>
                                 <p> <b>Register or Login to see our exciting catalog</b> </p>
+                                <hr />
                                 <!-- Sign In Form -->
                                 <form method="post">
                                     <div class="form-group">
@@ -38,10 +40,10 @@
                                     </div>
                                     <br>
                                     <button type="submit" class="btn btn-outline-dark">Login</button>
-                                    <a asp-controller="account" asp-action="Register" role="button" class="btn btn-outline-dark" style="width:auto">SignUp</a>                                    
+                                    <a asp-controller="account" asp-action="Register" role="button" class="btn btn-outline-dark" style="width:auto">SignUp</a>
                                 </form>
                                 <br>
-                                <p><b>External Login/Registration using Social</b></p>
+                                <p><b>External Login/Registration using GitHub</b></p>
                                 <hr />
                                 @{
                                     if (Model.ExternalLogins.Count == 0)
