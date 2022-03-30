@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S542047\\Desktop\\HandIn-HandOut Repository\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {}
+    "C:\\Users\\S542405\\OneDrive - nwmissouri.edu\\Desktop\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S542047\\Desktop\\HandIn-HandOut Repository\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {
+    "C:\\Users\\S542405\\OneDrive - nwmissouri.edu\\Desktop\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S542047\\Desktop\\HandIn-HandOut Repository\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+        "projectUniqueName": "C:\\Users\\S542405\\OneDrive - nwmissouri.edu\\Desktop\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
         "projectName": "HandInHandOut",
-        "projectPath": "C:\\Users\\S542047\\Desktop\\HandIn-HandOut Repository\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
-        "packagesPath": "C:\\Users\\S542047\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S542047\\Desktop\\HandIn-HandOut Repository\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\obj\\",
+        "projectPath": "C:\\Users\\S542405\\OneDrive - nwmissouri.edu\\Desktop\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\HandInHandOut.csproj",
+        "packagesPath": "C:\\Users\\S542405\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S542405\\OneDrive - nwmissouri.edu\\Desktop\\HandIn-HandOut\\HandIn-HandOut Project File\\HandInHandOut\\HandInHandOut\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S542047\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\S542405\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
