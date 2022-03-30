@@ -24,6 +24,7 @@
                 {
                     <a asp-controller="home" asp-action="edit" asp-route-id="@Model.books.id" class="btn btn-outline-dark">Edit</a>
                 }
+                <br>
                 @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded) {
             <form asp-controller="home" asp-action="delete" asp-route-id="@Model.books.id">
 
