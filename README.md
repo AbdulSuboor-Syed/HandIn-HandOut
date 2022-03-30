@@ -7,7 +7,7 @@ This project is intended to assisting universities in showcasing accessible book
 ## Stack:
 
 Front-End: Html, Javascript, Bootstrap<br>
-Back End: C#&ASP.Net<br>
+Back End: C#&ASP.Net Core <br>
 Database: Azure cloud Database<br>
 
 ## External Requirement:
