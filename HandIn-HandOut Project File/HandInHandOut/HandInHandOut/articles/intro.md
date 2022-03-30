@@ -1,3 +1,3 @@
 # Add your introductions here!
 
-HandIn-HandOut project is dedicated to help university to showcase the book's that are available and allow students to view information about buying price, renting price and also information on students can sell their old books.
+The HandIn-HandOut initiative aims to assist universities in showcasing accessible books and allowing students to browse information on purchasing, renting, and selling old books.
