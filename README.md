@@ -28,27 +28,25 @@ Follow these steps to setup an admin account using custom username [Custom usern
 Follow these steps to setup github authorization on the application [GitHub Authorization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Authorization-Configuration-GitHub.md)
 
 ## HandIn-HandOut Documents:
-|Page|Link|
-|--- |--- |
-|Repository|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)|
-|Documents Page|[Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)|
-|Future Works|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md)|
 
+| Page           | Link                                                                                   |
+| -------------- | -------------------------------------------------------------------------------------- |
+| Repository     | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)          |
+| Documents Page | [Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)          |
+| Future Works   | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md) |
 
 ## Links to Project Documents:
 
-|Page|Link|
-|--- |--- |
-|Group Organization|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Group-Organization)|
-|Project Description|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki)|
-|Abdul Suboor,Syed Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Abdul-Suboor,-Syed)|
-|Chandra Bhanu Tata Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)|
-|Hema Sree Rathnam Machha Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Hema-Sree-Rathnam-Machha-Wiki)|
-|Himaja Parachuri Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Himaja-Parachuri-Wiki)|
-|RFP|[Link](https://github.com/HemaSreeRathnamMachha/691-01-F21-RFP-Group1/blob/main/HandIn-HandOut.md)|
-|Unit Testing|[Link](https://github.com/HimajaParachuri/Unit-Testing)|
-|Milestones|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)|
-|Issues|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)|
-|Project Board|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)|
-
-
+| Page                          | Link                                                                                               |
+| ----------------------------- | -------------------------------------------------------------------------------------------------- |
+| Group Organization            | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Group-Organization)                 |
+| Project Description           | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki)                                    |
+| Abdul Suboor,Syed Wiki        | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Abdul-Suboor,-Syed)                 |
+| Chandra Bhanu Tata Wiki       | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)                 |
+| Hema Sree Rathnam Machha Wiki | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Hema-Sree-Rathnam-Machha-Wiki)      |
+| Himaja Parachuri Wiki         | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Himaja-Parachuri-Wiki)              |
+| RFP                           | [Link](https://github.com/HemaSreeRathnamMachha/691-01-F21-RFP-Group1/blob/main/HandIn-HandOut.md) |
+| Unit Testing                  | [Link](https://github.com/HimajaParachuri/Unit-Testing)                                            |
+| Milestones                    | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)                              |
+| Issues                        | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)                                  |
+| Project Board                 | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)                              |
