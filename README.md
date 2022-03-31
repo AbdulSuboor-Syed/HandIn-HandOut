@@ -38,15 +38,15 @@ Brian Lagunas-Introduction to DocFX Documentation System](https://www.youtube.co
 We have incorporated unit testing to another sample project as we did not have extensive knowelege about unit testing for ASP.NET CORE application<br>
 [Unit Testing Repository](https://github.com/HimajaParachuri/Unit-Testing)
 
-## HandIn-HandOut Documents:
+## Code-Documents:
 
 | Page                | Link                                                                                   |
 | ------------------- | -------------------------------------------------------------------------------------- |
-| Document Repository | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)          |
-| Documents Page      | [Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)          |
+| Code-Documentation Repository | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)          |
+| Code-Documentation Page      | [Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)          |
 | Future Works        | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md) |
 
-## Links to Project Documents:
+## Links To Check Out:
 
 | Page                          | Link                                                                                               |
 | ----------------------------- | -------------------------------------------------------------------------------------------------- |
