@@ -7,7 +7,6 @@
 4. Open the project in local repository and delete all the following files<br>
    ![img](https://user-images.githubusercontent.com/77799896/160996677-def34bf9-1edb-4f75-8c64-72dae30f2503.png)
 
-
 # Compile/Build/Run
 
 1. After installation open the project in Microsoft Visual Studio
