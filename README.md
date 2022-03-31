@@ -27,6 +27,10 @@ Follow these steps to setup an admin account using custom username [Custom usern
 
 Follow these steps to setup github authorization on the application [GitHub Authorization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Authorization-Configuration-GitHub.md)
 
+## Unit Testing:
+We have incorporated unit testing to another sample project as we did not have extensive knowelege about unit testing for ASP.NET CORE application<br>
+[Unit Testing Repository](https://github.com/HimajaParachuri/Unit-Testing)
+
 ## HandIn-HandOut Documents:
 
 | Page                | Link                                                                                   |
