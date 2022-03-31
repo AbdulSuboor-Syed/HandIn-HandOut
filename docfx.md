@@ -9,7 +9,7 @@
 
 # Compile/Build/Run
 
-1. After installation open the project in Microsoft Visual Studio
+1. Open the project in Microsoft Visual Studio
 2. Rigth Click on ![image](https://user-images.githubusercontent.com/77645775/160992784-8ec86755-f625-463f-a5e5-0185c5d38080.png)
 3. Click on Manage NuGet Packages ..
 4. Click on docfx.console
@@ -21,3 +21,6 @@
 7. Click on ![image](https://user-images.githubusercontent.com/77645775/160993707-8e77792e-7421-4a82-b88f-e333afcf569b.png) to run the application and it will auto generate the documentation.
 8. Open Powershell as administration in HandInHandOut folder<br>
    ![image](https://user-images.githubusercontent.com/77645775/160995800-2c74c7c8-ba6b-4c50-bdf9-0cac621fb9be.png)
+9. Enter the command to commpile and run docfx locally 
+> docfx docfx.json <br>
+> docfx serve _site
