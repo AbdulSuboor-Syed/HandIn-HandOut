@@ -33,7 +33,6 @@ Follow the steps provided in the documentation to Setup/Compile/Build [Docfx Con
 If you want full tutorial on how to configure Docfx [
 Brian Lagunas-Introduction to DocFX Documentation System](https://www.youtube.com/watch?v=qmDC6RTnlV4&ab_channel=BrianLagunas)
 
-
 ## Unit Testing:
 
 We have incorporated unit testing to another sample project as we did not have extensive knowelege about unit testing for ASP.NET CORE application<br>
