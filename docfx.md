@@ -21,6 +21,6 @@
 7. Click on ![image](https://user-images.githubusercontent.com/77645775/160993707-8e77792e-7421-4a82-b88f-e333afcf569b.png) to run the application and it will auto generate the documentation.
 8. Open Powershell as administration in HandInHandOut folder<br>
    ![image](https://user-images.githubusercontent.com/77645775/160995800-2c74c7c8-ba6b-4c50-bdf9-0cac621fb9be.png)
-9. Enter the command to commpile and run docfx locally 
-> docfx docfx.json <br>
-> docfx serve _site
+9. Enter the command to commpile and run docfx locally
+   > docfx docfx.json <br>
+   > docfx serve \_site
