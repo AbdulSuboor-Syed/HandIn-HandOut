@@ -27,6 +27,13 @@ Follow these steps to setup an admin account using custom username [Custom usern
 
 Follow these steps to setup github authorization on the application [GitHub Authorization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Authorization-Configuration-GitHub.md)
 
+## Docfx configuration:
+
+Follow the steps provided in the documentation to Setup/Compile/Build [Docfx Configuration Documentation](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/docfx.md) <br>
+If you want full tutorial on how to configure Docfx [
+Brian Lagunas-Introduction to DocFX Documentation System](https://www.youtube.com/watch?v=qmDC6RTnlV4&ab_channel=BrianLagunas)
+
+
 ## Unit Testing:
 
 We have incorporated unit testing to another sample project as we did not have extensive knowelege about unit testing for ASP.NET CORE application<br>
