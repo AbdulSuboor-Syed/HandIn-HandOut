@@ -13,7 +13,6 @@ namespace HandInHandOut.ViewModels
     {
         [Required]
         [EmailAddress]
-        [ValidEmailDomain(allowedDomain:"gmail.com",ErrorMessage = "Email domain must be gmail.com")]
         public string Email { get; set; }
 
         [Required]
