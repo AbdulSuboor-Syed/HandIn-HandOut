@@ -28,21 +28,27 @@ Follow these steps to setup an admin account using custom username [Custom usern
 Follow these steps to setup github authorization on the application [GitHub Authorization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Authorization-Configuration-GitHub.md)
 
 ## HandIn-HandOut Documents:
+|Page|Link|
+|--- |--- |
+|Repository|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)|
+|Documents Page|[Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)|
+|Future Works|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md)|
 
-[Link to Repository](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)<br>
-[Link to Documents Page](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)<br>
-[Future Works](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md)
 
 ## Links to Project Documents:
 
-[Link to Issues](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)<br>
-[Link to Milestones](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)<br>
-[Link to Project Board](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)<br>
-[Link to Group Organization](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Group-Organization)<br>
-[Link to Project Description](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki)<br>
-[Link to Abdul Suboor,Syed Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Abdul-Suboor,-Syed)<br>
-[Link to Chandra Bhanu Tata Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)<br>
-[Link to Hema Sree Rathnam Machha Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Hema-Sree-Rathnam-Machha-Wiki)<br>
-[Link to Himaja Parachuri Wiki](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Himaja-Parachuri-Wiki)<br>
-[Link to RFP](https://github.com/HemaSreeRathnamMachha/691-01-F21-RFP-Group1/blob/main/HandIn-HandOut.md)<br>
-[Link to Unit Testing](https://github.com/HimajaParachuri/Unit-Testing)<br>
+|Page|Link|
+|--- |--- |
+|Group Organization|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Group-Organization)|
+|Project Description|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki)|
+|Abdul Suboor,Syed Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Abdul-Suboor,-Syed)|
+|Chandra Bhanu Tata Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Chandra-Bhanu-Tata)|
+|Hema Sree Rathnam Machha Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Hema-Sree-Rathnam-Machha-Wiki)|
+|Himaja Parachuri Wiki|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/wiki/Himaja-Parachuri-Wiki)|
+|RFP|[Link](https://github.com/HemaSreeRathnamMachha/691-01-F21-RFP-Group1/blob/main/HandIn-HandOut.md)|
+|Unit Testing|[Link](https://github.com/HimajaParachuri/Unit-Testing)|
+|Milestones|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/milestones)|
+|Issues|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/issues)|
+|Project Board|[Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/projects/1)|
+
+
