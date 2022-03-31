@@ -40,11 +40,11 @@ We have incorporated unit testing to another sample project as we did not have e
 
 ## Code-Documents:
 
-| Page                | Link                                                                                   |
-| ------------------- | -------------------------------------------------------------------------------------- |
+| Page                          | Link                                                                                   |
+| ----------------------------- | -------------------------------------------------------------------------------------- |
 | Code-Documentation Repository | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut-Code-Documentation)          |
-| Code-Documentation Page      | [Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)          |
-| Future Works        | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md) |
+| Code-Documentation Page       | [Link](https://abdulsuboor-syed.github.io/HandIn-HandOut-Code-Documentation/)          |
+| Future Works                  | [Link](https://github.com/AbdulSuboor-Syed/HandIn-HandOut/blob/main/Future%20Works.md) |
 
 ## Links To Check Out:
 
