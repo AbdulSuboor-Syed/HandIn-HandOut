@@ -5,7 +5,8 @@
 3. Type the command
    > choco install docfx
 4. Open the project in local repository and delete all the following files<br>
-   ![image](https://user-images.githubusercontent.com/77645775/160995206-94470e1d-ee04-425e-a831-9fb3ddae240f.png)
+   ![img](https://user-images.githubusercontent.com/77799896/160996677-def34bf9-1edb-4f75-8c64-72dae30f2503.png)
+
 
 # Compile/Build/Run
 
